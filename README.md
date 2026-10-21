@@ -1,4 +1,5 @@
 the_sauce
+
 the_sauce is a Python and Windows PowerShell tool for collecting Windows process, TCP connection, and event-log data, correlating selected indicators, and exporting CSV reports for security review. Originally developed as a Python cybersecurity project.
 Scope: This is a rule-based triage aid, not a malware detector. Risk scores are heuristic and may flag legitimate activity. Review findings manually.
 
