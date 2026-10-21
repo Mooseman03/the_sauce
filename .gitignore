@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# the_sauce - Generated security data and reports
+/collected_data/
+/Reports/
