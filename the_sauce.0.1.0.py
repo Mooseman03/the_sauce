@@ -25,7 +25,7 @@ def run_collection_script():
          "-ExecutionPolicy",
          "Bypass",
          "-File",
-         "collect_data.ps1"
+         "collect_data.0.1.0.ps1"
     ]
     )
 
