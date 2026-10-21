@@ -271,5 +271,5 @@ def lost_in_the_sauce():
 
     print(f"Finished in {round(end - start, 2)} seconds")
 
-if"___name___" == "_____main_______":
+if __name__ == "__main__":
     lost_in_the_sauce()
