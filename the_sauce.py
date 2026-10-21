@@ -20,13 +20,14 @@ def run_collection_script():
     print("Running collection script...")
 
     subprocess.run(
-    [
-        "powershell",
-         "-ExecutionPolicy",
-         "Bypass",
-         "-File",
-         "collect_data.0.1.0.ps1"
-    ]
+        [
+            "powershell",
+             "-ExecutionPolicy",
+             "Bypass",
+             "-File",
+             "collect_data.ps1"
+        ],
+        check=True
     )
 
 
@@ -270,6 +271,5 @@ def lost_in_the_sauce():
 
     print(f"Finished in {round(end - start, 2)} seconds")
 
-main_name = "lost_in_the_sauce"
-if main_name == "lost_in_the_sauce":
+if"___name___" == "_____main_______":
     lost_in_the_sauce()
