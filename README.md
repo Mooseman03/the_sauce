@@ -59,5 +59,29 @@ Future improvements
 - Graphical interface and true hierarchical process-tree visualization.
 Development documentation
 See [Software Development Life Cycle](docs/SDLC.md) for the project design, implemented features, limitations, and planned improvements.
-License
-MIT — see LICENSE.
+
+
+### Security and Liability Notice
+
+`the_sauce` is an open-source Windows system security analysis tool intended for educational, research, and authorized defensive security purposes.
+
+The software is provided "AS IS", without warranties of any kind, as described in the MIT License.
+
+**Important considerations:**
+
+- Users are responsible for ensuring they have authorization to collect and analyze system information.
+- The tool may require administrator privileges to access protected Windows Event Logs.
+- Generated reports may contain sensitive information, including usernames, executable paths, command lines, and network addresses.
+- Risk scores are heuristic indicators and should not be interpreted as definitive evidence of malicious activity.
+- Users should independently verify findings before taking corrective actions.
+- Users are responsible for protecting collected information and complying with applicable laws and organizational security policies.
+
+The software is not intended to replace professional security assessment tools or independent security analysis.
+
+See the [MIT License](LICENSE) for the full warranty disclaimer and limitation of liability.
+
+## License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
+
