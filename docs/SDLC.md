@@ -28,6 +28,18 @@ This public-facing SDLC summary is adapted from the original NET-351 Python fina
 
 **Reporting layer:** Four CSV files are exported. The process report includes PID and PPID but does not build a graphical or nested process tree.
 
+**Original Planned Workflow**
+
+The following flowchart was created during the initial NET-351 project planning phase. It illustrates the original design, including proposed features such as VirusTotal integration that are not implemented in the current release.
+
+![Original planned workflow](images_of_workflows/original-sdlc-flowchart.png)
+
+**Current Implemented Workflow**
+
+The following diagram represents the workflow implemented in the current version of `the_sauce`, including Windows data collection, process analysis, risk scoring, and CSV report generation.
+
+![Current implemented workflow](images_of_workflows/current-workflow.png)
+
 ## 4. Implementation
 
 Implemented: Windows process and TCP collection; three Windows event-log collections; executable hashing; rule-based risk scores; risk-level labels; basic PID-based mapping; CSV export; runtime measurement.
