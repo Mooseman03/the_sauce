@@ -1,6 +1,6 @@
 # the_sauce
 
-**the_sauce** is a Python and Windows PowerShell cybersecurity tool designed to collect, correlate, and analyze Windows process, TCP connection, and event-log information. It generates CSV reports to support initial system security assessments and the identification of potentially suspicious activity.
+**the_sauce** is a Python and Windows PowerShell cybersecurity tool that collects, correlates, and analyzes Windows process, Network connection, and event-log information. It generates CSV reports to support initial system security assessments and identify potentially suspicious activity.
 
 The project was originally developed during the Spring 2026 semester as a final project for **NET-351 (Python) at Western Iowa Tech Community College (WITCC)** in Sioux City, Iowa.
 
@@ -11,10 +11,10 @@ The project was originally developed during the Spring 2026 semester as a final 
 ## Features
 
 - Collects running Windows processes, including process ID (PID), parent process ID (PPID), executable name, executable path, and command line using `Get-CimInstance Win32_Process`.
-- Collects TCP connection information using `Get-NetTCPConnection`, including owning process IDs.
+- Collects Network connection information using `Get-NetTCPConnection`, including owning process IDs.
 - Retrieves the latest 100 entries from each of the Windows Application, Security, and System event logs.
 - Calculates SHA-256 hashes of accessible executable files.
-- Correlates TCP connections with running processes using their PIDs.
+- Correlates Network connections with running processes using their PIDs.
 - Searches Windows event-log messages for matching PID strings.
 - Assigns heuristic risk scores and classifies processes as Low, Medium, or High risk.
 - Exports process-analysis and event-log information to CSV reports.
